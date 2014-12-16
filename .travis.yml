@@ -4,6 +4,6 @@ sudo: false
 
 install: npm install
 
-nvm:
+node_js:
   - "0.10"
   - "0.11"
