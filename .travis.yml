@@ -22,4 +22,4 @@ deploy:
   secret_access_key: "YOUR AWS SECRET KEY"
   bucket: "S3 Bucket"
   on:
-    condition: $NODE_JS_VERSION = '0.11' && $TRAVIS_RUBY_VERSION = '2.1.4'
+    condition: $NODE_JS_VERSION = '0.10' && $TRAVIS_RUBY_VERSION = '2.1.4'
